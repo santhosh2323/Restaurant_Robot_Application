@@ -15,6 +15,9 @@ Package contains algorithm which manages the process of cafe robot to take order
 
       cd catkin_ws/src
       git clone https://github.com/santhosh2323/Restaurant_Robot_Application.git
+      
+Cut the resro_pkg inside the Restaurant_Robot_Application folder and paste inside the src folder:
+
       cd ..
       catkin_make
 
