@@ -9,9 +9,9 @@ Package contains algorithm which manages the process of cafe robot to take order
 
 **PREREQUISITES**
 
-1 ROS-Noetic
-2 Turtlebot3
-3 Python3
+ROS-Noetic
+Turtlebot3
+Python3
 
 **INSTALLATION**
 
