@@ -7,7 +7,11 @@ Package contains algorithm which manages the process of cafe robot to take order
 ![Process_Flow_Chart](https://github.com/user-attachments/assets/85e6bc38-22bc-4deb-a11a-fcbf7ab66f30)
 
 
+**PREREQUISITES**
 
+1.ROS-Noetic
+2.Turtlebot3
+3.Python3
 
 **INSTALLATION**
 
