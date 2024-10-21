@@ -40,4 +40,5 @@ Package contains algorithm which manages the process of cafe robot to take order
 
      rosservice call /cancel/order "msg: 'table_2'" 
 
-                                                                      **********        ************
+
+                                                                     #######
