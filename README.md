@@ -1,2 +1,2 @@
 # Restaurant_Robot_Application
-Repository contains algorithm which manages the process of cafe robot
+Package contains algorithm which manages the process of cafe robot to take orders from the kitchen and delivers to the respective tables and returns to home position.
