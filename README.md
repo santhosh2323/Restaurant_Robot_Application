@@ -3,15 +3,15 @@ Package contains algorithm which manages the process of cafe robot to take order
 
 **PROCESS FLOW CHART:**
 
-![Process_Flow_Chart](https://github.com/user-attachments/assets/85e6bc38-22bc-4deb-a11a-fcbf7ab66f30)c
+![Process_Flow_Chart](https://github.com/user-attachments/assets/85e6bc38-22bc-4deb-a11a-fcbf7ab66f30)
 
 
 **INSTALLATION**
 
 **Clone the repository**
 
-  cd catkin_ws/src
-  git clone 
+    *cd catkin_ws/src
+    *git clone https://github.com/santhosh2323/Restaurant_Robot_Application.git
   cd ..
   catkin_make
 
