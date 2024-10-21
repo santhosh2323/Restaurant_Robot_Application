@@ -7,7 +7,7 @@ The below script is for managing orders from the kitchen and tables in cafe by a
 --------------------------------------------------------------------------------------
 Topics used:
 --------------------------------------------------------------------------------------
-/order_list - To check the order list contains table numbers and proceed with the orders
+/order_list - To check the order list contains table numbers and proceed with the orders-- #rostopic pub /order_list resro_pkg/StringList "data: ['table_1', 'table_2','table_3']" 
 /kitchen_confirmation - Confirmation from the kitchen to proceed further
 /table_confirmation - confirmation from the table to proceed further
 --------------------------------------------------------------------------------------
@@ -28,7 +28,7 @@ from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
 from std_msgs.msg import String
 from resro_pkg.msg import StringList
 from resro_pkg.srv import MSGTrigger, MSGTriggerResponse
-#rostopic pub /order_list resro_pkg/StringList "data: ['table_1', 'table_2','table_3']" 
+
 
 
 locations = {
