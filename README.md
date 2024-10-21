@@ -10,33 +10,33 @@ Package contains algorithm which manages the process of cafe robot to take order
 
 **Clone the repository**
 
-cd catkin_ws/src
-git clone 
-cd ..
-catkin_make
+  cd catkin_ws/src
+  git clone 
+  cd ..
+  catkin_make
 
 **RUNNING**
 
-roslaunch turtlebot3_gazebo turtlebot3_world.launch
+  roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
-roslaunch turtlebot3_navigation turtlebot3_navigation.launch
+  roslaunch turtlebot3_navigation turtlebot3_navigation.launch
 
-rosrun resro_pkg resro_manager.py
+  rosrun resro_pkg resro_manager.py
 
-**GIVING ORDERS**
+**Giving Orders**
 
-rostopic pub /order_list resro_pkg/StringList "data: ['table_1', 'table_2', 'table_3']"
+  rostopic pub /order_list resro_pkg/StringList "data: ['table_1', 'table_2', 'table_3']"
 
 **Kitchen confirmation**
 
-rostopic pub /kitchen_confirmation std_msgs/String "data: ''"
+  rostopic pub /kitchen_confirmation std_msgs/String "data: ''"
 
 **Table confirmation**
 
-rostopic pub /table_confirmation std_msgs/String "data: ''"
+  rostopic pub /table_confirmation std_msgs/String "data: ''"
 
 **Cancelling Orders**
 
-rosservice call /cancel/order "msg: 'table_2'" 
+  rosservice call /cancel/order "msg: 'table_2'" 
 
                                                                       **********************
