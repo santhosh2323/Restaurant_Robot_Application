@@ -3,8 +3,8 @@ Package contains algorithm which manages the process of cafe robot to take order
 
 **PROCESS FLOW CHART:**
 
+![process_flow_chart](https://github.com/user-attachments/assets/f901d985-4de8-4bf7-9cef-b3f005d16874)
 
-![Process_Flow_Chart](https://github.com/user-attachments/assets/85e6bc38-22bc-4deb-a11a-fcbf7ab66f30)
 
 
 **PREREQUISITES**
