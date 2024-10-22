@@ -9,9 +9,11 @@ Package contains algorithm which manages the process of cafe robot to take order
 
    In this part turtlebot3_world simulation is utilized and locations(home,kitchen,tables) have been pre-defined as per the below picture.
 
-
 ![Simualtion_Environment](https://github.com/user-attachments/assets/0428b632-5338-48a3-a1f2-1a6f9608cafa)
 
+**PROCESS EXECUTION AND RESULT**
+
+https://github.com/user-attachments/assets/b2a76667-da12-4641-9bc3-9c62cbec5b62
 
 **PREREQUISITES**
 
