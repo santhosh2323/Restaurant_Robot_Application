@@ -1,13 +1,13 @@
 # Restaurant_Robot_Application
 Package contains algorithm which manages the process of cafe robot to take orders from the kitchen and delivers to the respective tables and returns to home position.
 
-**PROCESS FLOW CHART:**
+**PROCESS FLOW CHART**
 
 ![process_flow_chart](https://github.com/user-attachments/assets/f901d985-4de8-4bf7-9cef-b3f005d16874)
 
 **SIMULATION ENVIRONMENT**
 
-      In this part turtlebot3_world simulation is utilized and locations(home,kitchen,tables) have been pre-defined as per the below picture.
+In this part turtlebot3_world simulation is utilized and locations(home,kitchen,tables) have been pre-defined as per the below picture.
 
 ![Simualtion_Environment](https://github.com/user-attachments/assets/0428b632-5338-48a3-a1f2-1a6f9608cafa)
 
