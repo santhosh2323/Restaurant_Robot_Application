@@ -117,6 +117,7 @@ class ResRo_Manager:
 		cancel_req = req.msg
 		if cancel_req in ['table_1','table_2','table_3']:
 			try:
+				print("cancel_request_received :",cancel_req)
 				if cancel_req == self.current_order:
 					self.cancel_order.append(cancel_req)
 					print("cancel_service_enabled")
