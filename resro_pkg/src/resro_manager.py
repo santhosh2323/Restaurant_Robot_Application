@@ -42,7 +42,6 @@ locations = {
 class ResRo_Manager:
 	def __init__(self):
 		rospy.init_node('resro_manager')
-		# Move_base action client
 		self.move_base_client = actionlib.SimpleActionClient('move_base', MoveBaseAction)
 		self.move_base_client.wait_for_server()
 		rospy.Subscriber('/order_list', StringList, self.order_callback)
